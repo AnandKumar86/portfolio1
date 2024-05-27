@@ -1,0 +1,97 @@
+.body{
+    background-color:rgb(173, 168, 168);
+}
+.h1{
+    color: rgb(17, 17, 17);
+    margin: 5%;
+}
+.p{
+    text-align: center;
+    padding: left;
+    font-size: large;
+    color: rgb(22, 22, 22);
+}
+.h2{
+    text-align: center;
+    padding: left;
+    font-size: 30px;
+    color: rgb(28, 27, 28);
+}
+.btn{
+/* .btn{ display: inline-block; */
+  /* padding: 12px ;
+  font-size: 16px;
+  font-weight: 600;
+  color: #101111;
+  background-color: #c9d3dc;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  margin: 20%; */
+
+    height: 50px;
+    width:100px;
+    margin-left:400px;
+    margin-top: 100px;
+    border-radius: 10px;
+    
+   
+}
+
+.btn:after{
+/* .btn{ display: inline-block; */
+  /* padding: 12px ;
+  font-size: 16px;
+  font-weight: 600;
+  color: #101111;
+  background-color: #c9d3dc;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  margin: 20%; */
+
+    height: 50px;
+    width:100px;
+    margin-left:400px;
+    margin-top: 100px;
+    border-radius: 10px;
+   
+    
+   
+}
+
+.img{
+    border-radius: 100px;
+    margin-left: 700px;
+    margin-top: 5%;
+}
+.n1 {
+    background-color: #333; /* Background color of the nav bar */
+    overflow: hidden; /* Clear floats */
+}
+
+.n1 ul {
+    list-style-type: none; /* Remove bullets */
+    margin-right: 0;
+    padding: 0;
+}
+
+.n1 ul li {
+    float: left; /* Align items horizontally */
+}
+
+.n1 ul li a {
+    display: block;
+    color: white; /* Link color */
+    text-align: center;
+    padding: 14px 16px; /* Spacing around the links */
+    text-decoration: none; /* Remove underline */
+}
+
+.n1 ul li a:hover {
+    background-color: #111; /* Change background on hover */
+}
